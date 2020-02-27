@@ -1,0 +1,49 @@
+### Java ###
+*.class
+ 
+# Package Files #
+#*.jar
+*.war
+*.ear
+ 
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+mix-recall-server/src/test/
+ 
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+ 
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+*.log
+ 
+### Maven ###
+log/
+target/
+logs/
+mix-recall-server/dependency-reduced-pom.xml

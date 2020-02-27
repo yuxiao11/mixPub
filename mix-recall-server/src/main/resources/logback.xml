@@ -1,0 +1,384 @@
+<configuration>
+    <conversionRule conversionWord="ip" converterClass="com.ifeng.recom.mixrecall.common.tool.IpConvert"/>
+    <property name="LOG_HOME" value="/data/prod/service"/>
+    <!--<property name="LOG_HOME" value="/Users/geyl/IdeaProjects/mix-recall/logs"/>-->
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%thread] %d{MM-dd HH:mm:ss} %-5level %logger{} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 业务日志 -->
+    <appender name="info" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/mix-recall-info.log</file>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/mix-recall-info.log.%d{yyyy-MM-dd-HH}
+            </fileNamePattern>
+            <maxHistory>200</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} %logger{0} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 警告日志 -->
+    <appender name="warn" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/mix-recall-warn.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/mix-recall-warn.log.%d{yyyy-MM-dd}
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level %logger{0} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+            <immediateFlush>false</immediateFlush>
+        </encoder>
+    </appender>
+
+    <!-- 错误日志 -->
+    <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/mix-recall-error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/mix-recall-error.log.%d{yyyy-MM-dd}
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%t][%c{15}.%M\(\):%L] - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- debug日志 -->
+    <appender name="debug" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/mix-recall-debug.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/mix-recall-debug.log.%d{yyyy-MM-dd}
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%thread] %d{HH:mm:ss} [%F:%L] - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 耗时日志 -->
+    <appender name="timeoutDetail" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/analyse/mix-recall-timeoutDetail.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/mix-recall-timeoutDetail.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} %ip - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 召回结果日志 -->
+    <appender name="ResultDetail" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--定义日志输出的路径-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/analyse/mix-recall-ResultDetail.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/mix-recall-ResultDetail.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} %ip - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--access日志-->
+    <appender name="userAccessAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/mix-recall/logs/recall-access.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/recall-access.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>%d{HH:mm:ss} %level %file:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--超时日志-->
+    <appender name="timeoutAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/mix-recall/logs/recall-timeout.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/recall-timeout.log.%d{yyyy-MM-dd}
+            </fileNamePattern>
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>%d{HH:mm:ss} %level %file:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--logstash日志-->
+    <appender name="logstashAppender" class="net.logstash.logback.appender.LogstashSocketAppender">
+        <host>10.80.29.145</host>
+        <port>9250</port>
+    </appender>
+
+    <logger name="logstash" additivity="false" level="INFO">
+        <appender-ref ref="logstashAppender"/>
+    </logger>
+
+
+    <!-- 耗时日志 -->
+    <appender name="serviceLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/analyse/mix-recall-serviceLog.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/mix-recall-serviceLog.log.%d{yyyyMMddHH}
+            </fileNamePattern>
+            <maxHistory>48</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} %ip - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 首屏耗时日志 -->
+    <appender name="homeLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/analyse/homeTimeout.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/homeTimeout.log.%d{yyyyMMddHH}
+            </fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 内容缺失统计日志 -->
+    <appender name="tagLackLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/analyse/tagLack.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/tagLack.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 通道缺失统计日志 -->
+    <appender name="channelLackLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <file>${LOG_HOME}/mix-recall/logs/analyse/channelLack.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/channelLack.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>5</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--监控日志-->
+    <appender name="monitorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/mix-recall/logs/analyse/recall-monitor.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/analyse/recall-monitor.log.%d{yyyyMMddHH}
+            </fileNamePattern>
+            <maxHistory>120</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.S} [%t] %level %file:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="recomMonitorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/mix-recall/monitor/operation-monitor.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/monitor/operation-monitor.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.S} [%t] %level %file:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <logger name="com.ifeng.recom.tools.log.MonitorLog" additivity="false" level="INFO">
+        <appender-ref ref="recomMonitorLog"/>
+    </logger>
+
+    <!-- 为jvm 日志做准备 -->
+    <appender name="JVMLOOGER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/mix-recall/logs/jvm/operation-monitor.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_HOME}/mix-recall/logs/jvm/operation-monitor.log.%d{yyyyMMdd}
+            </fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder charset="UTF-8">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.S} [%t] %level %file:%line - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <logger name="com.ifeng.recom.mixrecall.core.cache.feedback.CdmlVideoCache" additivity="false" level="INFO">
+        <appender-ref ref="JVMLOOGER"/>
+    </logger>
+
+
+    <logger name="com.ifeng.recom.mixrecall.common.tool.ServiceLogUtil" level="debug" additivity="false">
+        <appender-ref ref="serviceLog"/>
+    </logger>
+
+    <logger name="com.ifeng.recom.tools.common.logtools.utils.timer.TimerEntityUtil" level="debug" additivity="false">
+        <appender-ref ref="timeoutDetail"/>
+    </logger>
+
+    <logger name="com.ifeng.recom.mixrecall.common.tool.RecallResultLogUtils" level="debug" additivity="false">
+        <appender-ref ref="ResultDetail"/>
+    </logger>
+
+    <logger name="com.ifeng.recom.mixrecall.common.tool.HomeLogUtils" level="debug" additivity="false">
+        <appender-ref ref="homeLog"/>
+    </logger>
+
+    <logger name="com.ifeng.recom.mixrecall.common.tool.TagLackLogUtils" level="debug" additivity="false">
+        <appender-ref ref="tagLackLog"/>
+    </logger>
+
+    <logger name="com.ifeng.recom.mixrecall.common.tool.ChannelLackLogUtils" level="debug" additivity="false">
+        <appender-ref ref="channelLackLog"/>
+    </logger>
+
+<!--    <logger name="" level="debug" additivity="false">-->
+
+<!--    </logger>-->
+
+    <logger name="userAccess" additivity="false" level="INFO">
+        <appender-ref ref="userAccessAppender"/>
+    </logger>
+
+    <logger name="timeout" additivity="false" level="INFO">
+        <appender-ref ref="timeoutAppender"/>
+    </logger>
+
+    <logger name="com.ifeng.recom.mixrecall.common.util.MonitorTools" additivity="false" level="INFO">
+        <appender-ref ref="monitorLog"/>
+    </logger>
+
+    <!--减少日志输出-->
+    <logger name="org.springframework" level="ERROR"/>
+    <logger name="httpclient" level="WARN"/>
+    <logger name="org.apache.http" level="ERROR"/>
+    <logger name="org.apache.commons.httpclient" level="ERROR"/>
+
+
+    <root level="DEBUG">
+<!--        <appender-ref ref="STDOUT"/>-->
+        <appender-ref ref="info"/>
+        <appender-ref ref="warn"/>
+        <appender-ref ref="error"/>
+        <appender-ref ref="debug"/>
+    </root>
+
+</configuration>

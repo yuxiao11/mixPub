@@ -1,0 +1,710 @@
+{
+  "_index": "preload-news",
+  "_type": "all",
+  "_id": "7tNI7cVdjvZ",
+  "_version": 21,
+  "_score": null,
+  "_source": {
+    "date": "2020-01-19T18:22:50.000Z",
+    "sourceId": null,
+    "locliststr": "[\"{\\\"loc\\\":\\\"湖南省\\\",\\\"weight\\\":0.5}\"]",
+    "groupId": "S_9FO2mbpcEj5",
+    "available": true,
+    "source": "湖南卫视新闻纪实",
+    "mediaId": "1528949",
+    "timeSensitive": "2020-1-27 23:59:00",
+    "hotboostSaveTime": 1579513963022,
+    "specialParam": "{\"videoLearningLevel\":\"-1.0\",\"ucmsId\":\"7tNI7cVdjvZ\",\"thumbnailpic\":\"http://e0.ifengimg.com/12/pmop/2020/0120/8F2E443AAB6606CFDE4B2F69E731E58244E2F6F4_size52_w1104_h624.jpg\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":-1.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"猎奇\\\",\\\"accountContentType\\\":\\\"1\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tNI7cVdjvZ\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95332-95333-\\\",\\\"subcate\\\":\\\"脑洞实验\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"currentPlay\\\":0,\\\"jppoolOpt\\\":\\\"import\\\",\\\"dataProvider\\\":\\\"6\\\",\\\"poolInfo\\\":\\\"jpPool\\\",\\\"dataSource\\\":\\\"20009\\\"}\",\"selectedLevel\":\"1\",\"cpName\":\"今日头条\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"300\\\",\\\"contentQualityTag\\\":\\\"正常\\\"}\",\"fromChannel\":\"videoCmppEditor\"}",
+    "lda_topic": "topic2159^0.026532",
+    "topic1": "猎奇^1.0",
+    "topic2": "tp_14257^0.5 脑洞实验^1.0",
+    "partCategoryExt": null,
+    "on_line": "8",
+    "topic3": "科学实验^1.0 讲解类视频^1.0 湖南省^0.5 毛巾^1.0",
+    "coTag": "猎奇-湖南卫视新闻纪实(s) 脑洞实验-湖南卫视新闻纪实(s) 猎奇-毛巾 脑洞实验-毛巾 猎奇-讲解类视频 脑洞实验-讲解类视频 猎奇-科学实验 脑洞实验-科学实验 ",
+    "subcate": "脑洞实验",
+    "recommendLevel": "1",
+    "hasMajia": false,
+    "latent_r": "tp_14257^0.5",
+    "expireTime": "2020-01-27T15:59:00.000Z",
+    "latent": "tp_14257^0.5",
+    "timeliness": 300,
+    "hotBoost": 0.4906472472987683,
+    "splitTitle": "毛巾 的 保温 性能 竟 没有 报纸 强 ， 这 到底 是 为什么 呢 ？ \n",
+    "other": "jpPool all_can ",
+    "docId": "7tNI7cVdjvZ",
+    "timeSensitiveLevel": "M",
+    "title": "毛巾的保温性能竟没有报纸强，这到底是为什么呢？",
+    "sc": "脑洞实验^1.0 ",
+    "newsLenLevel": "4",
+    "importDate": "2020-01-20T11:05:31.000Z",
+    "simId": "clusterId_36072179",
+    "singleTag": "猎奇^1.0 脑洞实验^1.0 tp_14257^0.5 loc=湖南省^0.5 毛巾^1.0 讲解类视频^1.0 科学实验^1.0",
+    "rtag": null,
+    "cate": "猎奇",
+    "partCategory": null,
+    "hasThumnail": true,
+    "c": "猎奇^1.0 ",
+    "docType": "video",
+    "ps_level": "0",
+    "url": "157e3f1b-45a1-43b8-b000-d1c17d570951",
+    "distype": "jppool",
+    "performance": "{\"id\":\"cmpp_7tNI7cVdjvZ\",\"simidRank\":\"tp92\",\"simid\":\"clusterId_36072179\",\"ver\":2}",
+    "series": null,
+    "location": "湖南省",
+    "sourceName": null,
+    "updatetime": 1579518361079
+  },
+  "fields": {
+    "date": [
+      1579458170000
+    ],
+    "expireTime": [
+      1580140740000
+    ],
+    "importDate": [
+      1579518331000
+    ]
+  },
+  "sort": [
+    1579518331000
+  ]
+}
+{
+  "_index": "preload-news",
+  "_type": "all",
+  "_id": "7tOO25w7N1Z",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "hotBoost": 0.6779442911088112,
+    "date": "2020-01-20T09:50:01.000Z",
+    "splitTitle": "小猪佩奇 过 大年 ： 小猪佩奇 真 好看 ， 爸爸 给 女儿 讲起 佩奇 的 故事 \n",
+    "sourceId": null,
+    "other": "ifengvideo all_can ",
+    "docId": "7tOO25w7N1Z",
+    "locliststr": "null",
+    "groupId": null,
+    "available": true,
+    "timeSensitiveLevel": "L",
+    "source": "直通影剧院",
+    "mediaId": "1226110",
+    "title": "小猪佩奇过大年：小猪佩奇真好看，爸爸给女儿讲起佩奇的故事",
+    "timeSensitive": "2049-01-01 23:59:59",
+    "hotboostSaveTime": 1579518364311,
+    "specialParam": "{\"videoLearningLevel\":\"-1.0\",\"ucmsId\":\"7tOO25w7N1Z\",\"thumbnailpic\":\"https://x0.ifengimg.com/res/2020/85A718C67AFABE7F7A84B89E779826D42A0AE6A6_size51_w1064_h597.jpeg\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":-1.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"电影\\\",\\\"accountContentType\\\":\\\"2\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tOO25w7N1Z\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95095-95097-\\\",\\\"subcate\\\":\\\"电影其他\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"currentPlay\\\":0,\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20025\\\"}\",\"selectedLevel\":\"1\",\"cpName\":\"好看视频\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"9999\\\",\\\"contentQualityTag\\\":\\\"正常\\\"}\",\"fromChannel\":\"videoCmppEditor\"}",
+    "sc": "花絮片段^1.0 ",
+    "newsLenLevel": "4",
+    "importDate": "2020-01-20T11:05:26.000Z",
+    "simId": "clusterId_162675374",
+    "singleTag": "电影^1.0 花絮片段^1.0 低幼动漫/漫画^1.0 动漫电影^1.0 真人动漫^1.0",
+    "lda_topic": "topic3624^0.053483",
+    "rtag": null,
+    "topic1": "电影^1.0",
+    "topic2": "花絮片段^1.0",
+    "partCategoryExt": null,
+    "cate": "电影",
+    "partCategory": null,
+    "on_line": "8",
+    "hasThumnail": true,
+    "c": "电影^1.0 ",
+    "topic3": "真人动漫^1.0 动漫电影^1.0 低幼动漫/漫画^1.0",
+    "docType": "video",
+    "ps_level": "0",
+    "coTag": "电影-直通影剧院(s) 花絮片段-直通影剧院(s) 电影-低幼动漫/漫画 花絮片段-低幼动漫/漫画 电影-动漫电影 花絮片段-动漫电影 电影-真人动漫 花絮片段-真人动漫 ",
+    "subcate": "电影其他",
+    "recommendLevel": "1",
+    "hasMajia": false,
+    "url": "44d52534-2f5f-48df-9d65-4d2a58422897",
+    "distype": "allpool",
+    "expireTime": "2049-01-01T15:59:59.000Z",
+    "latent": "",
+    "timeliness": 9999,
+    "series": null,
+    "sourceName": null,
+    "updatetime": 1579518364301
+  },
+  "fields": {
+    "date": [
+      1579513801000
+    ],
+    "expireTime": [
+      2493129599000
+    ],
+    "importDate": [
+      1579518326000
+    ]
+  },
+  "sort": [
+    1579518326000
+  ]
+}
+
+{
+  "_index": "preload-news",
+  "_type": "all",
+  "_id": "7tOOG3m4WTs",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "hotBoost": 0.592118464417299,
+    "date": "2020-01-20T09:53:11.000Z",
+    "splitTitle": "开车 别 走神 ， 两 私家车 相撞 损失惨重 ， 让 人 伤 不 起 \n",
+    "sourceId": null,
+    "other": "ifengvideo all_can ",
+    "docId": "7tOOG3m4WTs",
+    "locliststr": "null",
+    "groupId": "S_-3RGg9Fllagd",
+    "available": true,
+    "timeSensitiveLevel": "S",
+    "source": "开车的那点事",
+    "mediaId": "833766",
+    "title": "开车别走神，两私家车相撞损失惨重，让人伤不起",
+    "timeSensitive": "2020-1-20 23:59:00",
+    "hotboostSaveTime": 1579518361155,
+    "specialParam": "{\"videoLearningLevel\":\"-1.0\",\"ucmsId\":\"7tOOG3m4WTs\",\"thumbnailpic\":\"https://x0.ifengimg.com/res/2020/BA82845E835B8073BD0F62DD27AA0C08178F5CA6_size373_w765_h500.png\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":-1.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"社会\\\",\\\"accountContentType\\\":\\\"2\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tOOG3m4WTs\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95084-95090-\\\",\\\"subcate\\\":\\\"事故灾难\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"currentPlay\\\":0,\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20009\\\"}\",\"selectedLevel\":\"1\",\"cpName\":\"今日头条\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"100\\\",\\\"contentQualityTag\\\":\\\"社会负面\\\"}\",\"fromChannel\":\"videoCmppSpider\"}",
+    "sc": "车祸^1.0 ",
+    "newsLenLevel": "3",
+    "importDate": "2020-01-20T11:05:22.000Z",
+    "simId": "clusterId_162675368",
+    "singleTag": "社会^1.0 车祸^1.0 社会新闻资讯^1.0 交通事故^1.0 司机^1.0",
+    "lda_topic": "topic4680^0.046942",
+    "rtag": null,
+    "topic1": "社会^1.0",
+    "topic2": "车祸^1.0",
+    "partCategoryExt": null,
+    "cate": "社会",
+    "partCategory": null,
+    "on_line": "8",
+    "hasThumnail": true,
+    "c": "社会^1.0 ",
+    "topic3": "交通事故^1.0 司机^1.0 社会新闻资讯^1.0",
+    "docType": "video",
+    "ps_level": "0",
+    "coTag": "社会-开车的那点事(s) 车祸-开车的那点事(s) 社会-社会新闻资讯 车祸-社会新闻资讯 社会-交通事故 车祸-交通事故 社会-司机 车祸-司机 ",
+    "subcate": "事故灾难",
+    "recommendLevel": "1",
+    "hasMajia": false,
+    "url": "d41a2f57-7d13-4224-a4f1-0ec930f347fb",
+    "distype": "allpool",
+    "expireTime": "2020-01-20T15:59:00.000Z",
+    "latent": "",
+    "timeliness": 100,
+    "series": null,
+    "sourceName": null,
+    "updatetime": 1579518361144
+  },
+  "fields": {
+    "date": [
+      1579513991000
+    ],
+    "expireTime": [
+      1579535940000
+    ],
+    "importDate": [
+      1579518322000
+    ]
+  },
+  "sort": [
+    1579518322000
+  ]
+}
+{
+  "_index": "preload-news",
+  "_type": "all",
+  "_id": "7tONzJg9rFW",
+  "_version": 1,
+  "_score": null,
+  "_source": {
+    "date": "2020-01-20T09:50:06.000Z",
+    "sourceId": null,
+    "locliststr": "null",
+    "groupId": "S_-An1nBRoO62q",
+    "available": true,
+    "source": "优联汽车",
+    "mediaId": "971468",
+    "timeSensitive": "2020-1-27 23:59:00",
+    "hotboostSaveTime": 1579518362671,
+    "specialParam": "{\"videoLearningLevel\":\"100.0\",\"ucmsId\":\"7tONzJg9rFW\",\"thumbnailpic\":\"https://x0.ifengimg.com/res/2020/13C932B705BD166D559A6291F08E873E397E2142_size11_w320_h200.jpeg\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":100.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"汽车\\\",\\\"accountContentType\\\":\\\"1\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tONzJg9rFW\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95047-95052-\\\",\\\"subcate\\\":\\\"新车\\\",\\\"highQuality\\\":0,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"2\\\",\\\"currentPlay\\\":0,\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20010\\\"}\",\"selectedLevel\":\"2\",\"cpName\":\"一点资讯\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"300\\\",\\\"contentQualityTag\\\":\\\"正常\\\"}\",\"fromChannel\":\"videoCmppSpider\"}",
+    "lda_topic": "topic4984^0.036897",
+    "topic1": "汽车^1.0",
+    "topic2": "新车^1.0 tp_11732^1.0",
+    "partCategoryExt": null,
+    "on_line": "8",
+    "level": "D",
+    "topic3": "汽车设计^1.0 汽车品牌^1.0 汽车类型^1.0 福特^1.0 汽车性能^1.0",
+    "coTag": "汽车-优联汽车(s) 新车-优联汽车(s) 汽车-福特 新车-福特 汽车-汽车品牌 新车-汽车品牌 汽车-汽车类型 新车-汽车类型 汽车-汽车性能 新车-汽车性能 汽车-汽车设计 新车-汽车设计 ",
+    "subcate": "新车",
+    "recommendLevel": "1",
+    "hasMajia": false,
+    "expireTime": "2020-01-27T15:59:00.000Z",
+    "latent": "tp_11732^1.0",
+    "timeliness": 300,
+    "hotBoost": 0.6778672943923809,
+    "splitTitle": "2019美系 SUV 大 赏 - 福特 锐际 \n",
+    "other": "ifengvideo all_can ",
+    "evalSourceLevel": "D",
+    "docId": "7tONzJg9rFW",
+    "timeSensitiveLevel": "M",
+    "title": "2019美系SUV大赏-福特锐际",
+    "sc": "新车^1.0 ",
+    "newsLenLevel": "2",
+    "algEvalSourceLevel": "D",
+    "importDate": "2020-01-20T11:05:17.000Z",
+    "simId": "clusterId_162650735",
+    "singleTag": "汽车^1.0 新车^1.0 tp_11732^1.0 福特^1.0 汽车品牌^1.0 汽车类型^1.0 汽车性能^1.0 汽车设计^1.0",
+    "rtag": null,
+    "cate": "汽车",
+    "partCategory": null,
+    "hasThumnail": true,
+    "c": "汽车^1.0 ",
+    "docType": "video",
+    "ps_level": "0",
+    "url": "7b2d89e2-47c1-4c89-a33e-348b427b8a0c",
+    "distype": "allpool",
+    "series": null,
+    "sourceName": null,
+    "updatetime": 1579518362663
+  },
+  "fields": {
+    "date": [
+      1579513806000
+    ],
+    "expireTime": [
+      1580140740000
+    ],
+    "importDate": [
+      1579518317000
+    ]
+  },
+  "sort": [
+    1579518317000
+  ]
+}
+{
+   "_index": "preload-news",
+   "_type": "all",
+   "_id": "7tOSjRyCVl3",
+   "_version": 1,
+   "_score": null,
+   "_source": {
+     "date": "2020-01-20T10:50:30.000Z",
+     "sourceId": "6532476148012553007",
+     "locliststr": "null",
+     "groupId": "S_1EqGZJHkAHy",
+     "available": true,
+     "source": "菜叶解惑TB",
+     "mediaId": "1534825",
+     "timeSensitive": "2020-1-27 23:59:00",
+     "hotboostSaveTime": 1579518362750,
+     "specialParam": "{\"ucmsId\":\"7tOSjRyCVl3\",\"pcUrl\":\"https://feng.ifeng.com/c/7tOSjRyCVl3\",\"extData\":\"{\\\"ucmsType\\\":\\\"article\\\",\\\"tupuData\\\":{\\\"classV1\\\":\\\"科学探索\\\",\\\"id\\\":\\\"6624976670501638177\\\"},\\\"cate\\\":\\\"科学探索\\\",\\\"ucmsId\\\":\\\"ucms_7tOSjRyCVl3\\\",\\\"accountContentType\\\":\\\"1\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"subcate\\\":\\\"\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMedia\\\",\\\"isIfengNews\\\":0,\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20009\\\",\\\"algorithmCateData\\\":\\\"科学探索,天文航天\\\",\\\"rtag\\\":\\\"\\\"}\",\"eventPlugin\":\"\",\"reportMessage\":\"{\\\"algCatNameOld\\\":\\\"科学探索,天文航天\\\",\\\"businessId\\\":\\\"zmt_art\\\",\\\"chnCatNameOld\\\":\\\"百科\\\",\\\"type\\\":\\\"exp\\\",\\\"longTimeExpireTime\\\":0,\\\"recommendArea\\\":\\\"[\\\\\\\"不限\\\\\\\"]\\\",\\\"locationOld\\\":\\\"\\\",\\\"chnCatName\\\":\\\"百科\\\",\\\"algCatName\\\":\\\"科学探索,天文航天\\\",\\\"auditRegion\\\":\\\"zmt_art_low\\\",\\\"tupuData\\\":\\\"{}\\\",\\\"algMessage\\\":\\\"{\\\\\\\"ad\\\\\\\":false,\\\\\\\"articleEvalLevel\\\\\\\":\\\\\\\"6.5\\\\\\\",\\\\\\\"category\\\\\\\":[\\\\\\\"科学探索\\\\\\\",\\\\\\\"c\\\\\\\",\\\\\\\"0.95\\\\\\\",\\\\\\\"天文航天\\\\\\\",\\\\\\\"sc\\\\\\\",\\\\\\\"0.96\\\\\\\"],\\\\\\\"guid\\\\\\\":\\\\\\\"6624925382950790966\\\\\\\",\\\\\\\"keywordList\\\\\\\":[],\\\\\\\"needReview\\\\\\\":false,\\\\\\\"overallLevel\\\\\\\":\\\\\\\"0.506667\\\\\\\",\\\\\\\"recommendOperate\\\\\\\":\\\\\\\"normal\\\\\\\",\\\\\\\"requestId\\\\\\\":\\\\\\\"378712ed-a537-44cd-b633-32acbdaa5898\\\\\\\",\\\\\\\"sourceEvalLevel\\\\\\\":\\\\\\\"B\\\\\\\",\\\\\\\"titleParty\\\\\\\":false}\\\",\\\"contentQualityTag\\\":\\\"正常\\\",\\\"tags\\\":\\\"\\\",\\\"recommendPeople\\\":\\\"[]\\\",\\\"bucket\\\":\\\"common\\\",\\\"longTime\\\":300,\\\"auditReason\\\":\\\"\\\",\\\"auditorId\\\":\\\"zhanghz\\\",\\\"auditTime\\\":\\\"2020-01-20 19:05:38\\\",\\\"tagsOld\\\":\\\"\\\",\\\"guid\\\":\\\"6624925382950790966\\\",\\\"auditorStatus\\\":132,\\\"auditStatus\\\":1,\\\"contentQuality\\\":0}\"}",
+     "lda_topic": "topic3337^0.158165",
+     "topic1": "科学探索^0.95",
+     "topic2": "tp_14472^1.0 天文航天^0.96",
+     "partCategoryExt": null,
+     "on_line": "8",
+     "level": "A",
+     "topic3": "尘埃^0.8 人体细胞^0.6 银河系^0.5 细胞^0.6 浮尘^0.5 地球^0.7 宇宙^0.9 乌龟^0.7",
+     "coTag": "科学探索-菜叶解惑TB(s) 天文航天-菜叶解惑TB(s) 科学探索-宇宙 天文航天-宇宙 科学探索-尘埃 天文航天-尘埃 科学探索-乌龟 天文航天-乌龟 科学探索-地球 天文航天-地球 科学探索-细胞 天文航天-细胞 科学探索-人体细胞 天文航天-人体细胞 科学探索-银河系 天文航天-银河系 科学探索-浮尘 天文航天-浮尘 ",
+     "subcate": "",
+     "recommendLevel": null,
+     "hasMajia": false,
+     "expireTime": "2020-01-27T15:59:00.000Z",
+     "latent": "tp_14472^1.0",
+     "timeliness": 300,
+     "hotBoost": 0.5696019574181743,
+     "splitTitle": "人体细胞 放大 ， 有可能 就是 一个 宇宙 ， 你 怎么 看 \n",
+     "other": "ifeng all_can wemediaLevel=4",
+     "evalSourceLevel": "B",
+     "docId": "7tOSjRyCVl3",
+     "timeSensitiveLevel": "M",
+     "title": "人体细胞放大，有可能就是一个宇宙，你怎么看",
+     "sc": "天文航天^0.96 ",
+     "newsLenLevel": "3",
+     "algEvalSourceLevel": "A",
+     "importDate": "2020-01-20T11:05:09.000Z",
+     "simId": "clusterId_105503249",
+     "singleTag": "科学探索^0.95 天文航天^0.96 tp_14472^1.0 宇宙^0.9 尘埃^0.8 乌龟^0.7 地球^0.7 细胞^0.6 人体细胞^0.6 银河系^0.5 浮尘^0.5",
+     "rtag": "",
+     "cate": "科学探索",
+     "partCategory": null,
+     "hasThumnail": true,
+     "c": "科学探索^0.95 ",
+     "docType": "docpic",
+     "ps_level": "0",
+     "url": "http://api.iclient.ifeng.com/ipadtestdoc?aid=ucms_7tOSjRyCVl3",
+     "distype": "allpool",
+     "series": null,
+     "sourceName": "菜叶解惑",
+     "updatetime": 1579518362740
+   },
+   "fields": {
+     "date": [
+       1579517430000
+     ],
+     "expireTime": [
+       1580140740000
+     ],
+     "importDate": [
+       1579518309000
+     ]
+   },
+   "sort": [
+     1579518309000
+   ]
+}
+{
+"_index": "preload-news",
+"_type": "all",
+"_id": "7tNI7cVdjvZ",
+"_version": 21,
+"_score": null,
+"_source": {
+ "date": "2020-01-19T18:22:50.000Z",
+ "sourceId": null,
+ "locliststr": "[\"{\\\"loc\\\":\\\"湖南省\\\",\\\"weight\\\":0.5}\"]",
+ "groupId": "S_9FO2mbpcEj5",
+ "available": true,
+ "source": "湖南卫视新闻纪实",
+ "mediaId": "1528949",
+ "timeSensitive": "2020-1-27 23:59:00",
+ "hotboostSaveTime": 1579513963022,
+ "specialParam": "{\"videoLearningLevel\":\"-1.0\",\"ucmsId\":\"7tNI7cVdjvZ\",\"thumbnailpic\":\"http://e0.ifengimg.com/12/pmop/2020/0120/8F2E443AAB6606CFDE4B2F69E731E58244E2F6F4_size52_w1104_h624.jpg\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":-1.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"猎奇\\\",\\\"accountContentType\\\":\\\"1\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tNI7cVdjvZ\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95332-95333-\\\",\\\"subcate\\\":\\\"脑洞实验\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"currentPlay\\\":0,\\\"jppoolOpt\\\":\\\"import\\\",\\\"dataProvider\\\":\\\"6\\\",\\\"poolInfo\\\":\\\"jpPool\\\",\\\"dataSource\\\":\\\"20009\\\"}\",\"selectedLevel\":\"1\",\"cpName\":\"今日头条\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"300\\\",\\\"contentQualityTag\\\":\\\"正常\\\"}\",\"fromChannel\":\"videoCmppEditor\"}",
+ "lda_topic": "topic2159^0.026532",
+ "topic1": "猎奇^1.0",
+ "topic2": "tp_14257^0.5 脑洞实验^1.0",
+ "partCategoryExt": null,
+ "on_line": "8",
+ "topic3": "科学实验^1.0 讲解类视频^1.0 湖南省^0.5 毛巾^1.0",
+ "coTag": "猎奇-湖南卫视新闻纪实(s) 脑洞实验-湖南卫视新闻纪实(s) 猎奇-毛巾 脑洞实验-毛巾 猎奇-讲解类视频 脑洞实验-讲解类视频 猎奇-科学实验 脑洞实验-科学实验 ",
+ "subcate": "脑洞实验",
+ "recommendLevel": "1",
+ "hasMajia": false,
+ "latent_r": "tp_14257^0.5",
+ "expireTime": "2020-01-27T15:59:00.000Z",
+ "latent": "tp_14257^0.5",
+ "timeliness": 300,
+ "hotBoost": 0.4906472472987683,
+ "splitTitle": "毛巾 的 保温 性能 竟 没有 报纸 强 ， 这 到底 是 为什么 呢 ？ \n",
+ "other": "jpPool all_can ",
+ "docId": "7tNI7cVdjvZ",
+ "timeSensitiveLevel": "M",
+ "title": "毛巾的保温性能竟没有报纸强，这到底是为什么呢？",
+ "sc": "脑洞实验^1.0 ",
+ "newsLenLevel": "4",
+ "importDate": "2020-01-20T11:05:31.000Z",
+ "simId": "clusterId_36072179",
+ "singleTag": "猎奇^1.0 脑洞实验^1.0 tp_14257^0.5 loc=湖南省^0.5 毛巾^1.0 讲解类视频^1.0 科学实验^1.0",
+ "rtag": null,
+ "cate": "猎奇",
+ "partCategory": null,
+ "hasThumnail": true,
+ "c": "猎奇^1.0 ",
+ "docType": "video",
+ "ps_level": "0",
+ "url": "157e3f1b-45a1-43b8-b000-d1c17d570951",
+ "distype": "jppool",
+ "performance": "{\"id\":\"cmpp_7tNI7cVdjvZ\",\"simidRank\":\"tp92\",\"simid\":\"clusterId_36072179\",\"ver\":2}",
+ "series": null,
+ "location": "湖南省",
+ "sourceName": null,
+ "updatetime": 1579518361079
+},
+"fields": {
+ "date": [
+   1579458170000
+ ],
+ "expireTime": [
+   1580140740000
+ ],
+ "importDate": [
+   1579518331000
+ ]
+},
+"sort": [
+ 1579518331000
+]
+}
+{
+"_index": "preload-news",
+"_type": "all",
+"_id": "7tOO25w7N1Z",
+"_version": 1,
+"_score": null,
+"_source": {
+ "hotBoost": 0.6779442911088112,
+ "date": "2020-01-20T09:50:01.000Z",
+ "splitTitle": "小猪佩奇 过 大年 ： 小猪佩奇 真 好看 ， 爸爸 给 女儿 讲起 佩奇 的 故事 \n",
+ "sourceId": null,
+ "other": "ifengvideo all_can ",
+ "docId": "7tOO25w7N1Z",
+ "locliststr": "null",
+ "groupId": null,
+ "available": true,
+ "timeSensitiveLevel": "L",
+ "source": "直通影剧院",
+ "mediaId": "1226110",
+ "title": "小猪佩奇过大年：小猪佩奇真好看，爸爸给女儿讲起佩奇的故事",
+ "timeSensitive": "2049-01-01 23:59:59",
+ "hotboostSaveTime": 1579518364311,
+ "specialParam": "{\"videoLearningLevel\":\"-1.0\",\"ucmsId\":\"7tOO25w7N1Z\",\"thumbnailpic\":\"https://x0.ifengimg.com/res/2020/85A718C67AFABE7F7A84B89E779826D42A0AE6A6_size51_w1064_h597.jpeg\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":-1.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"电影\\\",\\\"accountContentType\\\":\\\"2\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tOO25w7N1Z\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95095-95097-\\\",\\\"subcate\\\":\\\"电影其他\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"currentPlay\\\":0,\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20025\\\"}\",\"selectedLevel\":\"1\",\"cpName\":\"好看视频\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"9999\\\",\\\"contentQualityTag\\\":\\\"正常\\\"}\",\"fromChannel\":\"videoCmppEditor\"}",
+ "sc": "花絮片段^1.0 ",
+ "newsLenLevel": "4",
+ "importDate": "2020-01-20T11:05:26.000Z",
+ "simId": "clusterId_162675374",
+ "singleTag": "电影^1.0 花絮片段^1.0 低幼动漫/漫画^1.0 动漫电影^1.0 真人动漫^1.0",
+ "lda_topic": "topic3624^0.053483",
+ "rtag": null,
+ "topic1": "电影^1.0",
+ "topic2": "花絮片段^1.0",
+ "partCategoryExt": null,
+ "cate": "电影",
+ "partCategory": null,
+ "on_line": "8",
+ "hasThumnail": true,
+ "c": "电影^1.0 ",
+ "topic3": "真人动漫^1.0 动漫电影^1.0 低幼动漫/漫画^1.0",
+ "docType": "video",
+ "ps_level": "0",
+ "coTag": "电影-直通影剧院(s) 花絮片段-直通影剧院(s) 电影-低幼动漫/漫画 花絮片段-低幼动漫/漫画 电影-动漫电影 花絮片段-动漫电影 电影-真人动漫 花絮片段-真人动漫 ",
+ "subcate": "电影其他",
+ "recommendLevel": "1",
+ "hasMajia": false,
+ "url": "44d52534-2f5f-48df-9d65-4d2a58422897",
+ "distype": "allpool",
+ "expireTime": "2049-01-01T15:59:59.000Z",
+ "latent": "",
+ "timeliness": 9999,
+ "series": null,
+ "sourceName": null,
+ "updatetime": 1579518364301
+},
+"fields": {
+ "date": [
+   1579513801000
+ ],
+ "expireTime": [
+   2493129599000
+ ],
+ "importDate": [
+   1579518326000
+ ]
+},
+"sort": [
+ 1579518326000
+]
+}
+
+{
+"_index": "preload-news",
+"_type": "all",
+"_id": "7tOOG3m4WTs",
+"_version": 1,
+"_score": null,
+"_source": {
+ "hotBoost": 0.592118464417299,
+ "date": "2020-01-20T09:53:11.000Z",
+ "splitTitle": "开车 别 走神 ， 两 私家车 相撞 损失惨重 ， 让 人 伤 不 起 \n",
+ "sourceId": null,
+ "other": "ifengvideo all_can ",
+ "docId": "7tOOG3m4WTs",
+ "locliststr": "null",
+ "groupId": "S_-3RGg9Fllagd",
+ "available": true,
+ "timeSensitiveLevel": "S",
+ "source": "开车的那点事",
+ "mediaId": "833766",
+ "title": "开车别走神，两私家车相撞损失惨重，让人伤不起",
+ "timeSensitive": "2020-1-20 23:59:00",
+ "hotboostSaveTime": 1579518361155,
+ "specialParam": "{\"videoLearningLevel\":\"-1.0\",\"ucmsId\":\"7tOOG3m4WTs\",\"thumbnailpic\":\"https://x0.ifengimg.com/res/2020/BA82845E835B8073BD0F62DD27AA0C08178F5CA6_size373_w765_h500.png\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":-1.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"社会\\\",\\\"accountContentType\\\":\\\"2\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tOOG3m4WTs\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95084-95090-\\\",\\\"subcate\\\":\\\"事故灾难\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"currentPlay\\\":0,\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20009\\\"}\",\"selectedLevel\":\"1\",\"cpName\":\"今日头条\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"100\\\",\\\"contentQualityTag\\\":\\\"社会负面\\\"}\",\"fromChannel\":\"videoCmppSpider\"}",
+ "sc": "车祸^1.0 ",
+ "newsLenLevel": "3",
+ "importDate": "2020-01-20T11:05:22.000Z",
+ "simId": "clusterId_162675368",
+ "singleTag": "社会^1.0 车祸^1.0 社会新闻资讯^1.0 交通事故^1.0 司机^1.0",
+ "lda_topic": "topic4680^0.046942",
+ "rtag": null,
+ "topic1": "社会^1.0",
+ "topic2": "车祸^1.0",
+ "partCategoryExt": null,
+ "cate": "社会",
+ "partCategory": null,
+ "on_line": "8",
+ "hasThumnail": true,
+ "c": "社会^1.0 ",
+ "topic3": "交通事故^1.0 司机^1.0 社会新闻资讯^1.0",
+ "docType": "video",
+ "ps_level": "0",
+ "coTag": "社会-开车的那点事(s) 车祸-开车的那点事(s) 社会-社会新闻资讯 车祸-社会新闻资讯 社会-交通事故 车祸-交通事故 社会-司机 车祸-司机 ",
+ "subcate": "事故灾难",
+ "recommendLevel": "1",
+ "hasMajia": false,
+ "url": "d41a2f57-7d13-4224-a4f1-0ec930f347fb",
+ "distype": "allpool",
+ "expireTime": "2020-01-20T15:59:00.000Z",
+ "latent": "",
+ "timeliness": 100,
+ "series": null,
+ "sourceName": null,
+ "updatetime": 1579518361144
+},
+"fields": {
+ "date": [
+   1579513991000
+ ],
+ "expireTime": [
+   1579535940000
+ ],
+ "importDate": [
+   1579518322000
+ ]
+},
+"sort": [
+ 1579518322000
+]
+}
+{
+"_index": "preload-news",
+"_type": "all",
+"_id": "7tONzJg9rFW",
+"_version": 1,
+"_score": null,
+"_source": {
+ "date": "2020-01-20T09:50:06.000Z",
+ "sourceId": null,
+ "locliststr": "null",
+ "groupId": "S_-An1nBRoO62q",
+ "available": true,
+ "source": "优联汽车",
+ "mediaId": "971468",
+ "timeSensitive": "2020-1-27 23:59:00",
+ "hotboostSaveTime": 1579518362671,
+ "specialParam": "{\"videoLearningLevel\":\"100.0\",\"ucmsId\":\"7tONzJg9rFW\",\"thumbnailpic\":\"https://x0.ifengimg.com/res/2020/13C932B705BD166D559A6291F08E873E397E2142_size11_w320_h200.jpeg\",\"extData\":\"{\\\"ucmsType\\\":\\\"video\\\",\\\"videoLearningLevel\\\":100.0,\\\"tupuData\\\":{},\\\"cate\\\":\\\"汽车\\\",\\\"accountContentType\\\":\\\"1\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"ucmsId\\\":\\\"7tONzJg9rFW\\\",\\\"isIfengVideo\\\":0,\\\"searchPath\\\":\\\"27-95047-95052-\\\",\\\"subcate\\\":\\\"新车\\\",\\\"highQuality\\\":0,\\\"comefrom\\\":\\\"weMediaVideo\\\",\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"2\\\",\\\"currentPlay\\\":0,\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20010\\\"}\",\"selectedLevel\":\"2\",\"cpName\":\"一点资讯\",\"recommendLevel\":\"1\",\"reportMessage\":\"{\\\"longTime\\\":\\\"300\\\",\\\"contentQualityTag\\\":\\\"正常\\\"}\",\"fromChannel\":\"videoCmppSpider\"}",
+ "lda_topic": "topic4984^0.036897",
+ "topic1": "汽车^1.0",
+ "topic2": "新车^1.0 tp_11732^1.0",
+ "partCategoryExt": null,
+ "on_line": "8",
+ "level": "D",
+ "topic3": "汽车设计^1.0 汽车品牌^1.0 汽车类型^1.0 福特^1.0 汽车性能^1.0",
+ "coTag": "汽车-优联汽车(s) 新车-优联汽车(s) 汽车-福特 新车-福特 汽车-汽车品牌 新车-汽车品牌 汽车-汽车类型 新车-汽车类型 汽车-汽车性能 新车-汽车性能 汽车-汽车设计 新车-汽车设计 ",
+ "subcate": "新车",
+ "recommendLevel": "1",
+ "hasMajia": false,
+ "expireTime": "2020-01-27T15:59:00.000Z",
+ "latent": "tp_11732^1.0",
+ "timeliness": 300,
+ "hotBoost": 0.6778672943923809,
+ "splitTitle": "2019美系 SUV 大 赏 - 福特 锐际 \n",
+ "other": "ifengvideo all_can ",
+ "evalSourceLevel": "D",
+ "docId": "7tONzJg9rFW",
+ "timeSensitiveLevel": "M",
+ "title": "2019美系SUV大赏-福特锐际",
+ "sc": "新车^1.0 ",
+ "newsLenLevel": "2",
+ "algEvalSourceLevel": "D",
+ "importDate": "2020-01-20T11:05:17.000Z",
+ "simId": "clusterId_162650735",
+ "singleTag": "汽车^1.0 新车^1.0 tp_11732^1.0 福特^1.0 汽车品牌^1.0 汽车类型^1.0 汽车性能^1.0 汽车设计^1.0",
+ "rtag": null,
+ "cate": "汽车",
+ "partCategory": null,
+ "hasThumnail": true,
+ "c": "汽车^1.0 ",
+ "docType": "video",
+ "ps_level": "0",
+ "url": "7b2d89e2-47c1-4c89-a33e-348b427b8a0c",
+ "distype": "allpool",
+ "series": null,
+ "sourceName": null,
+ "updatetime": 1579518362663
+},
+"fields": {
+ "date": [
+   1579513806000
+ ],
+ "expireTime": [
+   1580140740000
+ ],
+ "importDate": [
+   1579518317000
+ ]
+},
+"sort": [
+ 1579518317000
+]
+}
+{
+"_index": "preload-news",
+"_type": "all",
+"_id": "7tOSjRyCVl3",
+"_version": 1,
+"_score": null,
+"_source": {
+  "date": "2020-01-20T10:50:30.000Z",
+  "sourceId": "6532476148012553007",
+  "locliststr": "null",
+  "groupId": "S_1EqGZJHkAHy",
+  "available": true,
+  "source": "菜叶解惑TB",
+  "mediaId": "1534825",
+  "timeSensitive": "2020-1-27 23:59:00",
+  "hotboostSaveTime": 1579518362750,
+  "specialParam": "{\"ucmsId\":\"7tOSjRyCVl3\",\"pcUrl\":\"https://feng.ifeng.com/c/7tOSjRyCVl3\",\"extData\":\"{\\\"ucmsType\\\":\\\"article\\\",\\\"tupuData\\\":{\\\"classV1\\\":\\\"科学探索\\\",\\\"id\\\":\\\"6624976670501638177\\\"},\\\"cate\\\":\\\"科学探索\\\",\\\"ucmsId\\\":\\\"ucms_7tOSjRyCVl3\\\",\\\"accountContentType\\\":\\\"1\\\",\\\"creator\\\":\\\"weMedia\\\",\\\"subcate\\\":\\\"\\\",\\\"highQuality\\\":1,\\\"comefrom\\\":\\\"weMedia\\\",\\\"isIfengNews\\\":0,\\\"expireTime\\\":\\\"{\\\\\\\"machine\\\\\\\":\\\\\\\"2020-1-20 23:59:00\\\\\\\"}\\\",\\\"selectedLevel\\\":\\\"1\\\",\\\"dataProvider\\\":\\\"6\\\",\\\"dataSource\\\":\\\"20009\\\",\\\"algorithmCateData\\\":\\\"科学探索,天文航天\\\",\\\"rtag\\\":\\\"\\\"}\",\"eventPlugin\":\"\",\"reportMessage\":\"{\\\"algCatNameOld\\\":\\\"科学探索,天文航天\\\",\\\"businessId\\\":\\\"zmt_art\\\",\\\"chnCatNameOld\\\":\\\"百科\\\",\\\"type\\\":\\\"exp\\\",\\\"longTimeExpireTime\\\":0,\\\"recommendArea\\\":\\\"[\\\\\\\"不限\\\\\\\"]\\\",\\\"locationOld\\\":\\\"\\\",\\\"chnCatName\\\":\\\"百科\\\",\\\"algCatName\\\":\\\"科学探索,天文航天\\\",\\\"auditRegion\\\":\\\"zmt_art_low\\\",\\\"tupuData\\\":\\\"{}\\\",\\\"algMessage\\\":\\\"{\\\\\\\"ad\\\\\\\":false,\\\\\\\"articleEvalLevel\\\\\\\":\\\\\\\"6.5\\\\\\\",\\\\\\\"category\\\\\\\":[\\\\\\\"科学探索\\\\\\\",\\\\\\\"c\\\\\\\",\\\\\\\"0.95\\\\\\\",\\\\\\\"天文航天\\\\\\\",\\\\\\\"sc\\\\\\\",\\\\\\\"0.96\\\\\\\"],\\\\\\\"guid\\\\\\\":\\\\\\\"6624925382950790966\\\\\\\",\\\\\\\"keywordList\\\\\\\":[],\\\\\\\"needReview\\\\\\\":false,\\\\\\\"overallLevel\\\\\\\":\\\\\\\"0.506667\\\\\\\",\\\\\\\"recommendOperate\\\\\\\":\\\\\\\"normal\\\\\\\",\\\\\\\"requestId\\\\\\\":\\\\\\\"378712ed-a537-44cd-b633-32acbdaa5898\\\\\\\",\\\\\\\"sourceEvalLevel\\\\\\\":\\\\\\\"B\\\\\\\",\\\\\\\"titleParty\\\\\\\":false}\\\",\\\"contentQualityTag\\\":\\\"正常\\\",\\\"tags\\\":\\\"\\\",\\\"recommendPeople\\\":\\\"[]\\\",\\\"bucket\\\":\\\"common\\\",\\\"longTime\\\":300,\\\"auditReason\\\":\\\"\\\",\\\"auditorId\\\":\\\"zhanghz\\\",\\\"auditTime\\\":\\\"2020-01-20 19:05:38\\\",\\\"tagsOld\\\":\\\"\\\",\\\"guid\\\":\\\"6624925382950790966\\\",\\\"auditorStatus\\\":132,\\\"auditStatus\\\":1,\\\"contentQuality\\\":0}\"}",
+  "lda_topic": "topic3337^0.158165",
+  "topic1": "科学探索^0.95",
+  "topic2": "tp_14472^1.0 天文航天^0.96",
+  "partCategoryExt": null,
+  "on_line": "8",
+  "level": "A",
+  "topic3": "尘埃^0.8 人体细胞^0.6 银河系^0.5 细胞^0.6 浮尘^0.5 地球^0.7 宇宙^0.9 乌龟^0.7",
+  "coTag": "科学探索-菜叶解惑TB(s) 天文航天-菜叶解惑TB(s) 科学探索-宇宙 天文航天-宇宙 科学探索-尘埃 天文航天-尘埃 科学探索-乌龟 天文航天-乌龟 科学探索-地球 天文航天-地球 科学探索-细胞 天文航天-细胞 科学探索-人体细胞 天文航天-人体细胞 科学探索-银河系 天文航天-银河系 科学探索-浮尘 天文航天-浮尘 ",
+  "subcate": "",
+  "recommendLevel": null,
+  "hasMajia": false,
+  "expireTime": "2020-01-27T15:59:00.000Z",
+  "latent": "tp_14472^1.0",
+  "timeliness": 300,
+  "hotBoost": 0.5696019574181743,
+  "splitTitle": "人体细胞 放大 ， 有可能 就是 一个 宇宙 ， 你 怎么 看 \n",
+  "other": "ifeng all_can wemediaLevel=4",
+  "evalSourceLevel": "B",
+  "docId": "7tOSjRyCVl3",
+  "timeSensitiveLevel": "M",
+  "title": "人体细胞放大，有可能就是一个宇宙，你怎么看",
+  "sc": "天文航天^0.96 ",
+  "newsLenLevel": "3",
+  "algEvalSourceLevel": "A",
+  "importDate": "2020-01-20T11:05:09.000Z",
+  "simId": "clusterId_105503249",
+  "singleTag": "科学探索^0.95 天文航天^0.96 tp_14472^1.0 宇宙^0.9 尘埃^0.8 乌龟^0.7 地球^0.7 细胞^0.6 人体细胞^0.6 银河系^0.5 浮尘^0.5",
+  "rtag": "",
+  "cate": "科学探索",
+  "partCategory": null,
+  "hasThumnail": true,
+  "c": "科学探索^0.95 ",
+  "docType": "docpic",
+  "ps_level": "0",
+  "url": "http://api.iclient.ifeng.com/ipadtestdoc?aid=ucms_7tOSjRyCVl3",
+  "distype": "allpool",
+  "series": null,
+  "sourceName": "菜叶解惑",
+  "updatetime": 1579518362740
+},
+"fields": {
+  "date": [
+    1579517430000
+  ],
+  "expireTime": [
+    1580140740000
+  ],
+  "importDate": [
+    1579518309000
+  ]
+},
+"sort": [
+  1579518309000
+]
+}

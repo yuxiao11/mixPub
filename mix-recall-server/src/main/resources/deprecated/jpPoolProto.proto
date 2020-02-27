@@ -1,0 +1,21 @@
+option java_package = "com.ifeng.recom.engine.headline.common.model.recom.protobuf";
+option java_outer_classname = "JpPoolProbuf";
+
+message JpPoolDocument {
+	optional string readableFeatures = 1;
+	optional string simId = 2;
+	optional string docid = 3;
+	optional string date = 4;
+	optional string title = 5;
+	optional string hotBoost = 6;
+	optional bool hasThumnail = 7;
+	optional string docType = 8;
+	optional string source = 9;
+	optional string cotag = 10;
+	optional bool isJp = 11;
+	optional string why = 12;
+}
+
+message JpPoolProto{
+	repeated JpPoolDocument document = 1;
+}

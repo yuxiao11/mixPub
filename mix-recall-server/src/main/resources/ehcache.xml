@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="false"
+         monitoring="autodetect" dynamicConfig="true">
+    <diskStore path="java.io.tmpdir"/>
+
+    <transactionManagerLookup
+            class="net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup"
+            properties="jndiName=java:/TransactionManager" propertySeparator=";"/>
+    <cacheManagerEventListenerFactory
+            class="" properties=""/>
+    <cacheManagerPeerProviderFactory
+            class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"
+            properties="peerDiscovery=automatic,
+                        multicastGroupAddress=230.0.0.1,
+                        multicastGroupPort=4446, timeToLive=1"
+            propertySeparator=","/>
+    <cacheManagerPeerListenerFactory
+            class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory"/>
+
+	<!--<cacheManagerPeerListenerFactory-->
+			<!--class="org.terracotta.ehcachedx.monitor.probe.ProbePeerListenerFactory"-->
+			<!--properties="monitorAddress=10.90.22.12, monitorPort=9889" />-->
+
+    <defaultCache maxEntriesLocalHeap="10000" eternal="false"
+                  timeToIdleSeconds="120" timeToLiveSeconds="120" diskSpoolBufferSizeMB="30"
+                  maxEntriesLocalDisk="10000000" diskExpiryThreadIntervalSeconds="120"
+                  memoryStoreEvictionPolicy="LRU">
+        <persistence strategy="localTempSwap"/>
+    </defaultCache>
+
+	<!--<cache name="itemProfile"-->
+		   <!--maxElementsInMemory="1200000"-->
+		   <!--maxEntriesLocalHeap="1200000"-->
+		   <!--maxEntriesLocalDisk="1200000"-->
+		   <!--eternal="false"-->
+		   <!--diskSpoolBufferSizeMB="200"-->
+		   <!--timeToIdleSeconds="7200"-->
+		   <!--timeToLiveSeconds="28800"-->
+		   <!--memoryStoreEvictionPolicy="LRU"-->
+		   <!--transactionalMode="off"-->
+		   <!--overflowToDisk="false">-->
+	<!--</cache>-->
+
+	<cache name="itemProfileEntity"
+		   maxElementsInMemory="1200000"
+		   maxEntriesLocalHeap="1200000"
+		   maxEntriesLocalDisk="1200000"
+		   eternal="false"
+		   timeToIdleSeconds="14400"
+           timeToLiveSeconds="28800"
+		   memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"
+		   overflowToDisk="false">
+    </cache>
+
+	<cache name="itemProfileFeatures"
+		   maxElementsInMemory="1200000"
+		   maxEntriesLocalHeap="1200000"
+		   maxEntriesLocalDisk="1200000"
+		   eternal="false"
+		   timeToIdleSeconds="14400"
+		   timeToLiveSeconds="28800"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"
+		   overflowToDisk="false">
+	</cache>
+
+	<cache name="documentEntity"
+		   maxElementsInMemory="1200000"
+		   maxEntriesLocalHeap="1200000"
+		   maxEntriesLocalDisk="1200000"
+		   eternal="false"
+		   timeToIdleSeconds="14400"
+		   timeToLiveSeconds="28800"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"
+		   overflowToDisk="false">
+	</cache>
+
+	<cache name="itemProfileStatistics"
+		   maxElementsInMemory="1200000"
+		   maxEntriesLocalHeap="1200000"
+		   maxEntriesLocalDisk="1200000"
+		   eternal="false"
+		   timeToIdleSeconds="1800"
+		   timeToLiveSeconds="1800"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"
+		   overflowToDisk="false">
+	</cache>
+
+
+    <!--长期不变的的用户画像-->
+    <cache name="userProfile"
+		   maxElementsInMemory="350000"
+		   eternal="false"
+		   timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+		   memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off"
+		   overflowToDisk="false">
+    </cache>
+
+	<!--sessionCache-->
+	<cache name="sessionCache"
+		   maxElementsInMemory="350000"
+		   eternal="false"
+		   timeToIdleSeconds="1800"
+		   timeToLiveSeconds="1800"
+		   memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"
+		   overflowToDisk="false">
+	</cache>
+
+    <cache
+            name="historyCtr"
+            eternal="false"
+            maxElementsInMemory="500000"
+            overflowToDisk="false"
+            diskPersistent="false"
+            timeToIdleSeconds="0"
+            timeToLiveSeconds="1800"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+
+    <cache
+            name="noExistKeys"
+            eternal="false"
+            maxElementsInMemory="100000"
+            overflowToDisk="false"
+            diskPersistent="false"
+            timeToIdleSeconds="0"
+            timeToLiveSeconds="300"
+            memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+	<cache
+			name="keyJedisPoolMap"
+			eternal="false"
+			maxElementsInMemory="3000000"
+			overflowToDisk="false"
+			diskPersistent="false"
+			timeToIdleSeconds="0"
+			timeToLiveSeconds="86400"
+			memoryStoreEvictionPolicy="LRU">
+	</cache>
+
+	<cache name="uidAndDocIdResultForDebug" maxElementsInMemory="2000"
+		   maxEntriesLocalHeap="2000" maxEntriesLocalDisk="10000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="14400"
+		   timeToLiveSeconds="14400" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<cache name="simIdToRedisPoolForNewsPortrait" maxElementsInMemory="300000"
+		   maxEntriesLocalDisk="300000" eternal="false"
+		   diskSpoolBufferSizeMB="200" timeToIdleSeconds="10800"
+		   timeToLiveSeconds="10800" memoryStoreEvictionPolicy="LRU"
+		   transactionalMode="off"  overflowToDisk="false">
+	</cache>
+
+	<sizeOfPolicy maxDepth="1000" maxDepthExceededBehavior="abort" />
+
+</ehcache>
+
