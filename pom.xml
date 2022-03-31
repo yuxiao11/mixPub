@@ -34,7 +34,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hadoop.version>2.6.0-cdh5.8.3</hadoop.version>
         <hbase.version>1.2.0</hbase.version>
-        <springboot.version>1.5.2.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
         <spring.version>4.3.10.RELEASE</spring.version>
         <ifeng-recom-tools-recallInfo.version>1.0.6</ifeng-recom-tools-recallInfo.version>
     </properties>
